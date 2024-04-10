@@ -17,7 +17,7 @@ DeepHotResi can effectively identify hotspots in protein-RNA complexes, and it o
 
 ## System and hardware requirements
 
-MaSIF has been tested on Linux (Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz 
+DeepHotResi has been tested on Linux (Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz 
 processesor and 16GB of memory allotment)
 
 ## Software prerequisites 
