@@ -8,8 +8,9 @@
 - [Software prerequisites](#software-prerequisites)
 - [Datasets](#Datasets)
 - [Feature](#Feature)
-Usage
-The trained model
+- [Usage](#Usage)
+- [The trained model](#The-trained-model)
+
 
 ## Description
 
