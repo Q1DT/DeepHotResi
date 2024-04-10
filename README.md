@@ -6,6 +6,10 @@
 - [Description](#description)
 - [System and hardware requirements](#system-and-hardware-requirements)
 - [Software prerequisites](#software-prerequisites)
+- [Datasets](#Datasets)
+- [Feature](#Feature)
+Usage
+The trained model
 
 ## Description
 
@@ -17,7 +21,7 @@ DeepHotResi can effectively identify hotspots in protein-RNA complexes, and it o
 
 ## System and hardware requirements
 
-DeepHotResi has been tested on Linux (Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz 
+MaSIF has been tested on Linux (Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz 
 processesor and 16GB of memory allotment)
 
 ## Software prerequisites 
@@ -55,3 +59,13 @@ The following is the list of required libraries and programs, as well as the ver
 | PSSM_npy            | Sequence homology and conservation via scoring matrices.         |
 | Distance Matrices   | Spatial distances between residues for 3D structure insight.      |
 | HMM                 | Statistical properties and functional sites of protein families. |
+
+
+##  The trained model
+
+The models with trained parameters are put in the directory ' ./Model'
+
+## Usage
+
+The construction of the model is in the "AGATPPIS_model.py".
+You can run "train.py" to train the deep model from stratch and use the "test.py" to test the test datasets with the trained model.
