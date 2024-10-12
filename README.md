@@ -64,9 +64,24 @@ The following is the list of required libraries and programs, as well as the ver
 
 ##  The trained model
 
-The models with trained parameters are put in the directory ' ./Model'
+The models with trained parameters are put in the directory `` ./Model'``
 
 ## Usage
-
-The construction of the model is in the "AGATPPIS_model.py".
+### ⚙ Network Architecture
+Our model is implemented in ``AGATPPIS_model.py``.
 You can run "train.py" to train the deep model from stratch and use the "test.py" to test the test datasets with the trained model.
+
+
+**Model Training**
+
+Run 
+```
+python train.py
+``` 
+
+**Model Testing**
+
+Run 
+```
+python test.py
+``` 
