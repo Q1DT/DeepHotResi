@@ -1,6 +1,13 @@
 
 ## Sequence-based Deep Learning Framework for Identifying Hotspot Residues in Protein-RNA Complexes
-
+<p align="left">
+  <a href="https://pytorch.org/">
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=PyTorch&logoColor=white" />
+  </a>
+  <a href="https://www.dgl.ai/">
+    <img src="https://img.shields.io/badge/DGL-2CCEEE?style=flat" />
+  </a>
+</p>
 ## Table of Contents: 
 
 - [Description](#description)
