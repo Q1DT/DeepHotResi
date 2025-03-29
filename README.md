@@ -30,6 +30,7 @@ Next, it constructs an amino acid feature network from the contact map and SE-Mo
 Experimental results demonstrate that DeepHotResi outperforms state-of-the-art methods, effectively identifying hotspot residues in protein RNA complexes with superior accuracy on the test set. 
 
 
+<img src="./model_overview.jpg" alt="Overview of CoPRA" width="800">
 ## System and hardware requirements
 
 MaSIF has been tested on Linux (Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz 
