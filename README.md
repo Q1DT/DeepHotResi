@@ -34,7 +34,7 @@ Next, it constructs an amino acid feature network from the contact map and SE-Mo
 Experimental results demonstrate that DeepHotResi outperforms state-of-the-art methods, effectively identifying hotspot residues in protein RNA complexes with superior accuracy on the test set. 
 
 
-<img src="./model/model_overview.jpg" alt="Overview" width="800">
+<img src="./model/model_overview.pdf" alt="Overview" width="800">
 
 ## 🖥️ System Requirements
 - ​**CPU**: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz 
