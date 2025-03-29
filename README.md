@@ -30,6 +30,7 @@ Experimental results demonstrate that DeepHotResi outperforms state-of-the-art m
 
 
 <img src="./model/model_overview.jpg" alt="Overview" width="800">
+
 ## System and hardware requirements
 
 MaSIF has been tested on Linux (Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz 
