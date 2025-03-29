@@ -15,13 +15,13 @@
 
 ## 📖 Table of Contents: 
 
-- [Description](#description)
-- [System and hardware requirements](#system-and-hardware-requirements)
-- [Software prerequisites](#software-prerequisites)
-- [Datasets](#Datasets)
-- [Feature](#Feature)
-- [Usage](#Usage)
-- [The trained model](#The-trained-model)
+- [Description](#-description)  <!-- 👉 原 #description → 需匹配标题中的 📝 -->
+- [System and hardware requirements](#-system-and-hardware-requirements)
+- [Software prerequisites](#-software-prerequisites)
+- [Datasets](#-datasets)          <!-- 👉 原 #Datasets → GitHub自动转换大写字母为小写 -->
+- [Feature](#-feature)            <!-- 👉 原 #Feature → 需添加连字符 -->
+- [Usage](#-usage)
+- [Trained Models](#-trained-models) <!-- 👉 原 #The-trained-model → 需匹配标题复数形式 -->
 
 
 ## 📝 Description
