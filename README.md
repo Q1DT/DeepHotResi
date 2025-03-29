@@ -77,7 +77,7 @@ The following is the list of required libraries and programs, as well as the ver
 | Distance Matrices   | Spatial distances between residues for 3D structure insight.      |
 | HMM                 | Statistical properties and functional sites of protein families. |
 
-## 🛠️ Environment Setup  
+## 🛠️ Environment Setup  <!-- 保持当前格式 -->
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Q1DT/DeepHotResi.git && cd DeepHotResi
