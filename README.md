@@ -1,14 +1,19 @@
 
 ## Sequence-based Deep Learning Framework for Identifying Hotspot Residues in Protein-RNA Complexes
+
 <p align="left">
   <a href="https://pytorch.org/">
     <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=PyTorch&logoColor=white" />
   </a>
   <a href="https://www.dgl.ai/">
-    <img src="https://img.shields.io/badge/DGL-2CCEEE?style=flat" />
+    <img src="https://img.shields.io/badge/DGL-0.6.0-FF69B4?style=flat&logo=apachespark&logoColor=white" />
   </a>
-</p>s
-## Table of Contents: 
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-%203.8-blue?logo=python" />
+  </a>
+</p>
+
+## 📖 Table of Contents: 
 
 - [Description](#description)
 - [System and hardware requirements](#system-and-hardware-requirements)
@@ -19,7 +24,7 @@
 - [The trained model](#The-trained-model)
 
 
-## Description
+## 📝 Description
 In this study, we introduce DeepHotResi, a sequence-based computational method designed to predict hotspot residues in protein-RNA complexes. 
 
 DeepHotResi leverages a pre-trained protein language model to predict protein structure and generate an amino acid contact map. To enhance feature representation, DeepHotResi integrates the Squeeze-and-Excitation (SE) module, which processes diverse amino acid-level features. 
@@ -31,15 +36,15 @@ Experimental results demonstrate that DeepHotResi outperforms state-of-the-art m
 
 <img src="./model/model_overview.jpg" alt="Overview" width="800">
 
-## System and hardware requirements
+## 🖥️ System Requirements
+- ​**CPU**: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz 
+- ​**GPU**: NVIDIA GPU (≥16GB VRAM) CUDA Version: 12.2 
 
-MaSIF has been tested on Linux (Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz 
-processesor and 16GB of memory allotment)
 
-## Software prerequisites 
+## 📦 Software prerequisites 
 The following is the list of required libraries and programs, as well as the version on which it was tested (in parenthesis).
 * [Python](https://www.python.org/) (3.6)
-* [ESMFold](https://github.com/facebookresearch/esm) . (esm2_t36_3B_UR50D)
+* [ESM-2](https://github.com/facebookresearch/esm) . (esm2_t36_3B_UR50D)
 * [BioPython](https://github.com/biopython/biopython) .
 * [DSSP](https://github.com/cmbi/dssp) . (2.3.0)
 * [DGL](https://www.dgl.ai/). (0.6.0). 
@@ -50,7 +55,7 @@ The following is the list of required libraries and programs, as well as the ver
 * [torchvision](https://pytorch.org/). (0.10.0+cu111) 
 * pandas. (2.0.1) 
 
-## Datasets
+## 📊 Datasets
 
 | FILE NAME            | DESCRIPTION                                                   |
 |----------------------|---------------------------------------------------------------|
@@ -62,7 +67,7 @@ The following is the list of required libraries and programs, as well as the ver
 
 
 
-## Feature
+## ✨ Feature
 
 | FEATURE NAME        | DESCRIPTION                                                       |
 |---------------------|-------------------------------------------------------------------|
@@ -72,15 +77,25 @@ The following is the list of required libraries and programs, as well as the ver
 | Distance Matrices   | Spatial distances between residues for 3D structure insight.      |
 | HMM                 | Statistical properties and functional sites of protein families. |
 
+## 🛠️ Environment Setup  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Q1DT/DeepHotResi.git && cd DeepHotResi
+2. Create the Conda environment from ``./model/environment.yml``
+    ```bash
+    conda env create -f environment.yml  
+3. Activate the environment:
+    ```bash
+    conda activate hotspot
 
-##  The trained model
+## 🎯 Trained Models
 
 The models with trained parameters are put in the directory `` ./Model'``
 
 ## Usage
 ### ⚙ Network Architecture
 Our model is implemented in ``DeepHotResi.py``.
-You can run "train.py" to train the deep model from stratch and use the "test.py" to test the test datasets with the trained model.
+You can run ``train.py`` to train the deep model from stratch and use the ``test.py`` to test the test datasets with the trained model.
 
 
 **Model Training**
