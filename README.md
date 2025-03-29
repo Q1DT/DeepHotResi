@@ -21,12 +21,14 @@
 
 
 ## Description
+In this study, we introduce DeepHotResi, a sequence-based computational method designed to predict hotspot residues in protein-RNA complexes. 
 
-This study has developed DeepHotResi, a deep learning framework for predicting hotspot residues in protein-
-RNA complexes. The method integrates contact maps from protein structures, sequence data, and features derived
-from the esmfold model, employing Graph Attention Networks for accurate prediction. To address data limitations, a
-new, larger dataset was employed, significantly improving the model’s effectiveness. The experimental results show that
-DeepHotResi can effectively identify hotspots in protein-RNA complexes, and it outperforms existing methods.
+DeepHotResi leverages a pre-trained protein language model to predict protein structure and generate an amino acid contact map. To enhance feature representation, DeepHotResi integrates the Squeeze-and-Excitation (SE) module, which processes diverse amino acid-level features. 
+
+Next, it constructs an amino acid feature network from the contact map and SE-Module-derived features. Finally, DeepHotResi employs a Graph Attention Network (GAT) to model hotspot residue prediction as a graph node classification task.
+
+Experimental results demonstrate that DeepHotResi outperforms state-of-the-art methods, effectively identifying hotspot residues in protein RNA complexes with superior accuracy on the test set. 
+
 
 ## System and hardware requirements
 
