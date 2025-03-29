@@ -20,7 +20,7 @@
 - [Software prerequisites](#-software-prerequisites)
 - [Datasets](#-datasets)          <!-- 👉 原 #Datasets → GitHub自动转换大写字母为小写 -->
 - [Feature](#-feature)            <!-- 👉 原 #Feature → 需添加连字符 -->
-- [Usage](#-usage)
+- [Environment Setup](#-environment-setup)  <!-- 原始错误写法：[Environment Setup](#Environment Setup) -->
 - [Trained Models](#-trained-models) <!-- 👉 原 #The-trained-model → 需匹配标题复数形式 -->
 
 
