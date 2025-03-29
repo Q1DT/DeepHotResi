@@ -76,7 +76,7 @@ The models with trained parameters are put in the directory `` ./Model'``
 
 ## Usage
 ### ⚙ Network Architecture
-Our model is implemented in ``AGATPPIS_model.py``.
+Our model is implemented in ``DeepHotResi.py``.
 You can run "train.py" to train the deep model from stratch and use the "test.py" to test the test datasets with the trained model.
 
 
