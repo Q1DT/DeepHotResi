@@ -7,8 +7,7 @@
   <a href="https://www.dgl.ai/">
     <img src="https://img.shields.io/badge/DGL-2CCEEE?style=flat" />
   </a>
-</p>
-
+</p>s
 ## Table of Contents: 
 
 - [Description](#description)
@@ -30,7 +29,7 @@ Next, it constructs an amino acid feature network from the contact map and SE-Mo
 Experimental results demonstrate that DeepHotResi outperforms state-of-the-art methods, effectively identifying hotspot residues in protein RNA complexes with superior accuracy on the test set. 
 
 
-<img src="./model_overview.jpg" alt="Overview of CoPRA" width="800">
+<img src="./model/model_overview.jpg" alt="Overview" width="800">
 ## System and hardware requirements
 
 MaSIF has been tested on Linux (Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz 
